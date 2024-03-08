@@ -39,10 +39,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun decreaseCounter() {
-        if (counterValue > 0) {
-            counterValue--
-            updateCounterText()
-        }
+        counterValue--
+        updateCounterText()
+//        if (counterValue > 0) {
+//            counterValue--
+//            updateCounterText()
+//        }
     }
 
     private fun updateCounterText() {
